@@ -81,7 +81,7 @@ try:
                     print(f"   {description[:150]}...")
                 print(f"    {source} | {published_at[:10] if published_at else 'Unknown'}")
                 if url and url != '#':
-                    print(f"   🔗 {url}")
+                    print(f"   {url}")
             
             print("\n" + "=" * 60)
             
